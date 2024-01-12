@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contanier {
+    width: 50%;
+    background-image: url(image/neom-RySPDa0FdcQ-unsplash.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    text-shadow: 5px 5px rgb(77, 63, 27);
+    margin-top: 80px;
+}
+
+.app {
+    width: 50%;
+    margin-top: 50px;
+    background-color: rgba(182, 129, 129, 0.37);
+    margin: auto;
+    padding: 20px;
+}
+
+.row1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #edeef0;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    padding-left: 20px;
+}
+
+input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px;
+    background: transparent;
+    font-weight: 14px;
+}
+
+button {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: rgb(173, 118, 36);
+    cursor: pointer;
+    padding: 16px 50px;
+    border-radius: 40px;
+    color: #fff;
+}
+
+button:hover {
+    color: black;
+    /* font-size: 15px; */
+    background-color: rgb(235, 167, 42);
+}
+
+ul li {
+    color: #fff;
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 0px;
+    margin-right: 250px;
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+}
+
+ul li::before {
+    content: "";
+    position: absolute;
+    height: 23px;
+    width: 20px;
+    border-radius: 50%;
+    background-image: url(image/radio-button.png);
+    background-size: cover;
+    background-position: center;
+    top: 13px;
+    left: -30px;
+}
+
+ul li.checked {
+    color: #ccc;
+    text-decoration: line-through;
+}
+
+ul li.checked::before {
+    background-image: url(image/radio-buttonll.png);
+}
+
+ul li span {
+    position: absolute;
+    left: 250px;
+    top: 2px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+ul li span:hover {
+    background: #9c6e0a;
+}
+
+
+/* 888888888888888888888888888888888888888888888888 */

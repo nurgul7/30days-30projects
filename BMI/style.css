@@ -1,0 +1,202 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(image/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contanier {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 100px;
+    /* background-color: rgba(72, 64, 48, 0.493); */
+    width: 80%;
+}
+
+.box {
+    padding: 80px;
+    background-color: rgba(78, 65, 91, 0.266);
+    margin: 20px;
+    margin-top: 0;
+    width: 70%;
+    height: 500px;
+    border-radius: 25px;
+    box-shadow: 25px 25px 25px rgba(22, 20, 20, 1);
+}
+
+.row {
+    /* background-color: red; */
+    text-align: center;
+    padding: 10px;
+}
+
+input {
+    width: 70px;
+    padding: 2px;
+    justify-self: center;
+}
+
+.slider {
+    appearance: none;
+    width: 50%;
+    height: 15px;
+    border-radius: 20px;
+    background-color: blanchedalmond;
+}
+
+.slider::-webkit-slider-thumb {
+    appearance: none;
+    background-repeat: no-repeat;
+    background-image: url(image/leaf.ico);
+    height: 30px;
+    width: 30px;
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 4px orange;
+}
+
+.sonuc,
+.deger {
+    color: white;
+}
+
+#kgvalue,
+#cmvalue {
+    color: white;
+    font-size: 20px;
+}
+
+button {
+    width: 150px;
+    padding: 5px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: blanchedalmond;
+    &:hover {
+        background-color: rosybrown;
+        color: white;
+    }
+}
+
+.kutu {
+    background-color: rosybrown;
+    width: 650px;
+    height: 450px;
+    margin: auto;
+    background-image: url(shdgxsxsefgxfcxdddcccscsd-1673530998.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.ibre {
+    background-image: url(arrow_up_indicator_chevron_anchor_icon_146018.ico);
+    /* background-color: rgba(87, 86, 86, 0.23); */
+    background-size: cover;
+    background-position: center;
+    /* border: 5px solid black; */
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 70px;
+    position: absolute;
+    margin-top: 340px;
+    margin-left: 330px;
+    transition: 3s;
+    /* rotate: calc(80deg); */
+}
+
+.ibre1 {
+    background-image: url(arrow_up_indicator_chevron_anchor_icon_146018.ico);
+    /* background-color: rgba(0, 0, 0, 0.401); */
+    background-size: cover;
+    background-position: center;
+    /* border: 5px solid black; */
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 70px;
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 290px;
+    transition: 3s;
+    rotate: calc(-98deg);
+}
+
+.ibre2 {
+    background-image: url(arrow_up_indicator_chevron_anchor_icon_146018.ico);
+    /* background-color: rgba(0, 0, 0, 0.401); */
+    background-size: cover;
+    background-position: center;
+    /* border: 5px solid black; */
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 70px;
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 310px;
+    transition: 3s;
+    rotate: calc(-40deg);
+}
+
+.ibre3 {
+    background-image: url(arrow_up_indicator_chevron_anchor_icon_146018.ico);
+    /* background-color: rgba(0, 0, 0, 0.401); */
+    background-size: cover;
+    background-position: center;
+    /* border: 5px solid black; */
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 70px;
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 330px;
+    transition: 3s;
+    rotate: calc(-5deg);
+}
+
+.ibre4 {
+    background-image: url(arrow_up_indicator_chevron_anchor_icon_146018.ico);
+    /* background-color: rgba(0, 0, 0, 0.401); */
+    background-size: cover;
+    background-position: center;
+    /* border: 5px solid black; */
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 70px;
+    position: absolute;
+    margin-top: 360px;
+    margin-left: 330px;
+    transition: 3s;
+    rotate: calc(55deg);
+}
+
+.ibre5 {
+    background-image: url(arrow_up_indicator_chevron_anchor_icon_146018.ico);
+    /* background-color: rgba(0, 0, 0, 0.401); */
+    background-size: cover;
+    background-position: center;
+    /* border: 5px solid black; */
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 70px;
+    position: absolute;
+    margin-top: 360px;
+    margin-left: 330px;
+    transition: 3s;
+    rotate: calc(85deg);
+}

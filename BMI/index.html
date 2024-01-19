@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="image/icon.ico" type="image">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI CALCULATE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="contanier">
+        <div class="box">
+            <h1>BMI CALCULATIONL</h1>
+            <!-- <div class="row">
+                <input type="number" name="" id="age" placeholder="AGE..">
+                <input type="text" id="gender" placeholder="GENDER">
+            </div> -->
+            <div class="row">
+                <input type="range" class="slider" id="kg" value="0" min="5" max="350" oninput="calc();">
+                <span id="kgvalue">00 KG</span>
+            </div>
+            <div class="row">
+                <input type="range" class="slider" id="cm" value="0" min="1" max="250" oninput="calc();">
+                <span id="cmvalue">00 CM</span>
+            </div>
+            <div class="row">
+                <div class="sonuc"></div>
+                <div class="deger">DAİMA SAĞLIK</div>
+            </div>
+            <div class="row">
+                <button onclick="reset();">RESET</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="kutu">
+                <div class="ibre"></div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
